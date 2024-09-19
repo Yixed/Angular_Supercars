@@ -1,0 +1,15 @@
+.sin-stock {
+  color: red;
+}
+
+.carImage {
+    height: 180px; 
+    object-fit: cover;
+  }
+
+@media (max-width: 765px) {
+  .carImage {
+    height: 260px; 
+    object-fit: cover;
+  }
+}
